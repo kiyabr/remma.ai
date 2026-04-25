@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Remma AI - YouTube Summarizer",
+  "version": "1.0.0",
+  "description": "Get AI summaries of YouTube videos right in the player. No API costs.",
+  "icons": {
+    "16": "logo.svg",
+    "48": "logo.svg",
+    "128": "logo.svg"
+  },
+  "action": {},
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*.youtube.com/*",
+    "https://api.groq.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["src/content.jsx"]
+    }
+  ]
+}
