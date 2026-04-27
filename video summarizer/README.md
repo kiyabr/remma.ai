@@ -4,8 +4,6 @@ Remma AI: Unlimited YouTube Summarizer
 
 Remma AI is a privacy-first, "unlimited" YouTube summarization tool. It combines high-power cloud AI (Groq/Gemini) with a local browser fallback (Transformers.js) to ensure you can summarize videos forever, for free, even when API limits are reached.
 
-![Remma AI Logo](web/app/icon.svg)
-
 Features
 
  **Instant Summaries**: Get the core value of a 20-minute video in 10 seconds.
